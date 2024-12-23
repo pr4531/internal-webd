@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:#ffdac1;
+  }
+  
+  
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a16681;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffe0e6;
+  }
+  
+  
+  .hero {
+    text-align: left;
+    
+    padding: 255px 20px;
+    background-color: #ffdac1;
+    color: #ff6f61;
+  }
+  
+  .hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+
+  }
+  
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff6f61;
+  }
+  
+ 
+  
+  .image{
+    display: flex;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -100px;
+    margin-right:auto;
+    
+    
+  }
+
+  .zero {
+    margin-bottom: 100px;
+  }
+
+  .ice{
+    display: flex;
+    flex-direction: row;
+    gap: 2.8rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  . .img{
+    width: 100px;
+
+    height: 100px;
+  }
